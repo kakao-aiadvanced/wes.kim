@@ -1,7 +1,4 @@
 from llmlingua import PromptCompressor
-import torch
-
-torch.set_default_device("mps")
 
 llm_lingua = PromptCompressor(
     model_name="microsoft/llmlingua-2-bert-base-multilingual-cased-meetingbank",
