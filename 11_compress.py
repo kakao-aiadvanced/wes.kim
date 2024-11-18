@@ -11,4 +11,4 @@ compressed_prompt = llm_lingua.compress_prompt(prompt, rate=0.33, force_tokens =
 
 print('original prompt length: ', len(prompt))
 print('compressed prompt length: ',len(compressed_prompt['compressed_prompt']))
-compressed_prompt['compressed_prompt']
+print(compressed_prompt['compressed_prompt'])
