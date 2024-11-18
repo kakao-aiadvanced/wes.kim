@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 openai = "*"
 promptbench = "*"
+llmlingua = "*"
 
 [dev-packages]
 

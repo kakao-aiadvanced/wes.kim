@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f8592aea3bccb19ece6b88bfb10cea5f9172226589b7feed9b68934d8cc06927"
+            "sha256": "ebd4c5f9fec8f32c082a386fd0c3cd6effb55ba77f80d07aca4855a1a2a6283b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -886,6 +886,15 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==1.4.7"
+        },
+        "llmlingua": {
+            "hashes": [
+                "sha256:1a0caedd8d5a65512a85dadb6bfda6f5b3c4b45e5cb9e7b1c6009573f9058572",
+                "sha256:da55137efe0db78063b3395396efe8a0dcfe4ae5a09aea0d503c34b7bf1d800c"
+            ],
+            "index": "pypi",
+            "markers": "python_full_version >= '3.8.0'",
+            "version": "==0.2.2"
         },
         "markupsafe": {
             "hashes": [
@@ -2207,7 +2216,39 @@
                 "sha256:f11d18fceb4f9ecb1ac680dde7c463c120ed29056225d75469c19637e9f98d12",
                 "sha256:f81d23227034221a4a4ff8ef24cc6cec7901edd98d9e64e32822778ff01be85e"
             ],
+            "index": "pypi",
             "markers": "python_full_version >= '3.8.0'",
+            "version": "==2.2.0"
+        },
+        "torchaudio": {
+            "hashes": [
+                "sha256:0d03829a187ec893b3253d1182af0b5be09a93ad5f94e1e8debf6269e1c7dcd6",
+                "sha256:0e874a34c0bee0e9374907512a7e89688ab7ed179b2f7f30b878fb991a852237",
+                "sha256:196593bf43e503f10ff8c1c60afa974b5f50b5ceb229d7405cceca7b5d560216",
+                "sha256:1a76b4a4e5faf969de8be3c7d323edcf574f214da49ce98c21304b436e01ffb6",
+                "sha256:29006c87112861c851974a529f487aaee9d3674d4e5f8a392744eb7c3a023576",
+                "sha256:31d0c65b2fa37c00b0c582fc2acb69a72b7ff70b81a1754d9007d562ff143880",
+                "sha256:3636fb7d8a7a964b5b49cc9372d231bbdcf985b65a5f8780f68979c75e2dcca1",
+                "sha256:43d65cb127faecdc513b16cc91040a8249d26d025e032e7d53278a770bb2c493",
+                "sha256:494addc560824102e7f292beda181b7ccb89b14bd689bb1d21a699a51ce607d9",
+                "sha256:59e56836cd2be81940cebacd3f4ee3779c4b78378a3e61945446da77c16384b4",
+                "sha256:622098474488bd6d3be3ad0d3b3357bc67544a212a5e6eaff1738c234264e1f4",
+                "sha256:6a84522a48d4605e42f68e5729c0b0ea3c5a604c97aa34f10b8147ed010eee07",
+                "sha256:840eb865b0647ef1c177f7efee14add24daf5062a7b4e49947fb98d4ab990663",
+                "sha256:971ede9e8488a8b85d6724a0586c3828648703d805054f5d1275d32060c17949",
+                "sha256:9be18ca20a0c2e8ca0b633887114083c928c95e454870b1d6ea8cfe05982cec9",
+                "sha256:9fd98ae6f7fa191d9e3399b6653962e416f63ac172b97b0c24d63fd46243f94e",
+                "sha256:a26447ec3d8be03a0b9f429a9de09c7ad4119de08c78491e4cc6569bed1cfdd6",
+                "sha256:a8dbb5f76327a3f2e31dcd3bf93b6716f6ba0342aeb182bb2782daf67b3a5aea",
+                "sha256:acc9c1e371cc007b32db3c4db2c24b44793eb9102156642d5b0811813049adb9",
+                "sha256:c5cb0b4896b107f4d1e7347ce2963c9bb77d248e8a9db5886164eca1b3ba620a",
+                "sha256:d4ea094b8721a361982db062ee993f2a6f71dfe16f62a84f8900b2364f33a2e4",
+                "sha256:dc48f966cc1973a8d58a9686335e517ac00ddae9cd7b592916a04b77499ef2bb",
+                "sha256:e2dc32b76eab278707cef43dbbadaad324a98b0f77f088cc4bbe5c2b08a56af1",
+                "sha256:eb4b03f69d1e399f0ed082b37eeaf189754102512772eded257be908f71d948e",
+                "sha256:fb1046eba9a3b7f6762f6a37e44330dc6c9625501da4bebbeaf896cea406f2d7"
+            ],
+            "index": "pypi",
             "version": "==2.2.0"
         },
         "torchvision": {
@@ -2238,6 +2279,7 @@
                 "sha256:e041ce3336364413bab051a3966d884bab25c200f98ca8a065f0abe758c3005e",
                 "sha256:f8e542cf71e1294fcb5635038eae6702df543dc90706f0836ec80e75efc511fc"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==0.17.0"
         },
