@@ -5,8 +5,14 @@ name = "pypi"
 
 [packages]
 openai = "*"
-promptbench = "*"
+# promptbench = "*" # 이 그지 같은 거 때문에 tiktoken이랑 openai가 langchain-openai랑 충돌 나는 데 Pipenv로 해결할 방법도 없음 진짜 파이썬 패키지 관리자 생태계 사람 환장해
 llmlingua = "*"
+langchain = "*"
+langchain-chroma = "*"
+langchain-text-splitters = "*"
+langchain-community = "*"
+langchain-openai = "*"
+bs4 = "*"
 
 [dev-packages]
 
