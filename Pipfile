@@ -13,6 +13,8 @@ langchain-text-splitters = "*"
 langchain-community = "*"
 langchain-openai = "*"
 bs4 = "*"
+tavily-python = "*"
+langgraph = "*"
 
 [dev-packages]
 
